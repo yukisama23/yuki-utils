@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yuki.yuki.mixin",
+  "refmap": "yuki.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FullbrightLightmapTextureManagerMixin",
+    "BlockOutlineWorldRendererMixin",
+    "NoHeartsShakeInGameHudMixin",
+    "HideDefenseIconInGameHudMixin",
+    "ArmorHudOffhandInGameHudMixin",
+    "EffectHudStatusEffectsDisplayMixin",
+    "EffectHudInGameHudMixin",
+    "ItemAnimationsHeldItemRendererMixin",
+    "ItemAnimationsLivingEntityMixin",
+    "NametagTweaksInventoryScreenMixin",
+    "NametagTweaksLivingEntityRendererMixin",
+    "NametagTweaksLabelCommandRendererMixin",
+    "ScoreboardShadowTextInGameHudMixin",
+    "ScoreboardDisableBackgroundInGameHudMixin",
+    "ArmorHiderEquipmentRendererMixin",
+    "ArmorHiderCapeFeatureRendererMixin",
+    "ArmorHiderHeadFeatureRendererMixin",
+    "EffectsEntityMixin",
+    "EffectsLivingEntityMixin",
+    "AnimationFixClientPlayNetworkHandlerMixin",
+    "ReachDisplayClientPlayerInteractionManagerMixin",
+    "TotemTweaksClientPlayNetworkHandlerMixin",
+    "ChatHudAccessor",
+    "ChatScreenChatTweaksMixin",
+    "DrawContextAccessor",
+    "CustomTooltipDrawContextMixin",
+    "ShulkerTooltipsHandledScreenMixin",
+    "OrderedTextTooltipComponentAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
