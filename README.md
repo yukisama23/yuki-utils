@@ -16,8 +16,6 @@ A PvP utility mod for Minecraft 1.21.11 Fabric.
 - Nametag Tweaks
 - Scoreboard Tweaks
 - Chat Tweaks
-- HUD Editor
-- Click GUI
 
 ## Requirements
 
